@@ -131,7 +131,7 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
     system/core/libprocessgroup/profiles/cgroups.json:$(TARGET_COPY_OUT_VENDOR)/etc/cgroups.json \
     system/core/libprocessgroup/profiles/task_profiles.json:$(TARGET_COPY_OUT_VENDOR)/etc/task_profiles.json
-    
+
 # Dalvik
 $(call inherit-product, frameworks/native/build/phone-xhdpi-6144-dalvik-heap.mk)
 
@@ -338,7 +338,8 @@ PRODUCT_VENDOR_PROPERTIES += \
     persist.vendor.radio.force_on_dc=true \
     persist.vendor.radio.manual_nw_rej_ct=1 \
     persist.vendor.radio.sib16_support=1 \
-    persist.vendor.radio.ucdetect.usb=true
+    persist.vendor.radio.ucdetect.usb=true \
+    persist.vendor.radio.redir_party_num=1
 
 # Sensors
 PRODUCT_PACKAGES += \
