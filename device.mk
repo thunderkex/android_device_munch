@@ -68,7 +68,8 @@ PRODUCT_VENDOR_PROPERTIES += \
     ro.vendor.audio.voice.volume.boost=none \
     vendor.audio.lowpower=true \
     vendor.audio.spkcal.copy.inhal=true \
-    vendor.audio.usb.disable.sidetone=true
+    vendor.audio.usb.disable.sidetone=true \
+    vendor.display.enable_async_powermode=1
 
 # Bluetooth
 PRODUCT_SYSTEM_EXT_PROPERTIES += \
