@@ -16,6 +16,10 @@
 SYSTEM_EXT_PRIVATE_SEPOLICY_DIRS += \
     device/xiaomi/munch/sepolicy/private
 
+# Public Sepolicy
+SYSTEM_EXT_PUBLIC_SEPOLICY_DIRS +=  \
+    device/xiaomi/munch/sepolicy/public
+
 # QCOM Sepolicy
 BOARD_VENDOR_SEPOLICY_DIRS += \
     device/xiaomi/munch/sepolicy/vendor/qcom
