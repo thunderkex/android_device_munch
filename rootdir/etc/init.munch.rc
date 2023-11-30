@@ -108,3 +108,13 @@ service vendor.btmac-sh /vendor/bin/init.mi.btmac.sh
     group system bluetooth wifi
     oneshot
     disabled
+
+service vendor.qti.hardware.display.composer /vendor/bin/hw/vendor.qti.hardware.display.composer-service
+    override
+    class hal animation
+    user system
+    group graphics drmrpc
+    capabilities SYS_NICE
+    onrestart restart surfaceflinger
+    socket pps stream 0660 system system
+    writepid /dev/cpuset/foreground/tasks
