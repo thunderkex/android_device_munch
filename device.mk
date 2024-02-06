@@ -155,7 +155,8 @@ PRODUCT_VENDOR_PROPERTIES += \
     ro.vendor.display.sensortype=2 \
     vendor.display.defer_fps_frame_count=2 \
     vendor.display.qdcm.mode_combine=1 \
-    vendor.display.use_layer_ext=0
+    vendor.display.use_layer_ext=0 \
+    debug.sf.enable_gl_backpressure=0
 
 # Doze
 PRODUCT_PACKAGES += \
