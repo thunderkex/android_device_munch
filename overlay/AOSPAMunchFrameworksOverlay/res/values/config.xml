@@ -41,4 +41,7 @@
     <!-- Fingerprint from stock ROM -->
     <string name="config_stockFingerprint" translatable="false">Redmi/munch/munch:13/RKQ1.211001.001/V14.0.3.0.TLMMIXM:user/release-keys</string>
 
+    <!-- Pocket Lock -->
+    <bool name="config_pocketModeLightSensorSupported">false</bool>
+
 </resources>
