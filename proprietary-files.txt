@@ -576,12 +576,6 @@ vendor/lib64/libcacertclient.so|d73c1651d2a66a595a65edc43d5605501bc2fd73
 vendor/lib64/libjnihelper.so|43d248a20138226b5f6c1348e78e22c2e8bbc441
 vendor/lib64/vendor.qti.hardware.cacert@1.0.so|f8f65b093fe367ffe0a8f23d7c7ff88ec09b80c5
 
-# Charger - from LA.UM.9.12.r1-14400-SMxx50.QSSI12.0
-vendor/bin/hvdcp_opti|d3dae2d3c64df366b82d11deb100af4d8813131f
-vendor/bin/init.qti.chg_policy.sh|9a96b05abdfe149eb8a7e20a791284e84b5fffe0
-vendor/etc/init/vendor.qti.hardware.charger_monitor@1.0-service.rc|29b23be4f604282abf715f86aec9697175a9aaad
-vendor/etc/charger_fstab.qti|8464c139d93f05e86ff9c9d31b3e8617b8d9476e
-
 # Configstore - from LA.UM.9.12.r1-14400-SMxx50.QSSI12.0
 vendor/bin/hw/vendor.qti.hardware.capabilityconfigstore@1.0-service|8faba5310d71eb9d67c5a5e0dbc22ba423f714e7
 vendor/etc/configstore/vpp.configstore.xml|ed961545186c66fd9523f25866c74f2e11ee63d7
