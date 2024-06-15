@@ -233,10 +233,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/keylayout/gpio-keys.kl:$(TARGET_COPY_OUT_VENDOR)/usr/keylayout/gpio-keys.kl
 
 # Keymaster
-PRODUCT_PACKAGES += \
-    android.hardware.gatekeeper@1.0.vendor \
-    android.hardware.keymaster@4.1.vendor
-
 PRODUCT_VENDOR_PROPERTIES += \
     ro.crypto.allow_encrypt_override=true \
     ro.crypto.volume.filenames_mode="aes-256-cts" \
@@ -312,6 +308,7 @@ TARGET_COMMON_QTI_COMPONENTS := \
     dsprpcd \
     gps \
     init \
+    keymaster \
     media \
     nfc \
     overlay \
