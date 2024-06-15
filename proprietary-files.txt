@@ -1,17 +1,10 @@
 # Device proprietary files - from munch MIUI V14.0.3.0.TLMMIXM package, unless pinned
 
 # ADSP - from LA.UM.9.12.r1-14400-SMxx50.QSSI12.0
-vendor/bin/adsprpcd|2886f08eb674b6ced8bf6e9bb54761094ee7b74c
 vendor/bin/loadalgo|487e763413fecc0fb1d57f271df03ad5db824a46
 vendor/etc/init/vendor.qti.adsprpc-service.rc|54588df8e7da58c66838028d2284986b966c2d37
-vendor/lib/libadsprpc.so|f972e65b574351a0a0fca0afd225cd46078f5b50
-vendor/lib/libadsp_default_listener.so|49d7644708419ea077ffd9d00901ebf6cdd4377c
-vendor/lib/libmdsprpc.so|17bad786a8c29ff412722a308a996c88e1dfa19d
 vendor/lib/libsdsprpc.so|f5061af7b154060304e14e283d220f04c143a361
-vendor/lib64/libadsprpc.so|9caae322adf0c1b64bc923d164350d5b6a8293b3
-vendor/lib64/libadsp_default_listener.so|33f44a23edf2cf734658e762a19dfc207b1921b8
 vendor/lib64/libloadalgo_stub.so|f544ef182d9cdc77e02eb8cc2a29ce4c02d0ddfc
-vendor/lib64/libmdsprpc.so|1ace0824fb46808afb9c225925d407139587fcda
 vendor/lib64/libsdsprpc.so|ec57a3858d3e2a2ee63dd23fffc8ca4b7923837d
 
 # ADSP-Modules
@@ -164,16 +157,6 @@ vendor/lib64/libbt-hidlclient.so|13e7ae0f423841ea5d6b722446acad3bbebf89ee
 vendor/lib64/libbtnv.so|7973f6eeaa23f85709682e6fca66d589f514563d
 vendor/lib64/vendor.qti.hardware.bluetooth_sar@1.0.so|52b83b6f371a49d866276aabc5d6bda4faa400b6
 vendor/lib64/vendor.qti.hardware.bluetooth_sar@1.1.so|8d098cef4c4442f9aa2c64389be5eba32003dcce
-
-# CDSP - from LA.UM.9.12.r1-14400-SMxx50.QSSI12.0
-vendor/bin/cdsprpcd|2257675e907dce9ed4a328d66caae44096221bb8
-vendor/etc/init/vendor.qti.cdsprpc-service.rc|36772b70216796e8ef19376d9c6a81ee9ffff549
-vendor/lib/libcdsprpc.so|bef57c3978029e460f742bb81adaf44512e552e9
-vendor/lib/libcdsp_default_listener.so|6a3f97faf26da3d01f7895d37c09c8bc62030e0a
-vendor/lib/libsysmon_cdsp_skel.so|b0dd56ca83493e68dc7610d44045849bb3bd8c38
-vendor/lib64/libcdsprpc.so|b96ac84aee7f4592caf6af3fc3c96d6f925e0c79
-vendor/lib64/libcdsp_default_listener.so|23a8dff8e8ab66d23c5de9aa3574dd3c64d113b4
-vendor/lib64/libsysmon_cdsp_skel.so|3ae87b24980f983ba83fd563134328bb0f6f62e8
 
 # CNE - from LA.UM.9.12.r1-14400-SMxx50.QSSI12.0
 -vendor/app/CneApp/CneApp.apk|2839a8643422182451935867c83454dc7503c22b
@@ -628,13 +611,6 @@ vendor/lib64/libwvhidl.so
 vendor/lib64/libwvkeybox.so
 vendor/lib64/mediadrm/libwvdrmengine.so
 
-# DSP - from LA.UM.9.12.r1-14400-SMxx50.QSSI12.0
-vendor/bin/dspservice|081468b9bc63cab921ac1e37a95eb93bd16e23f9
-vendor/etc/init/vendor.qti.hardware.dsp@1.0-service.rc|fbf2bb38ca6bdddf98c7123da9e1f263a4eec55f
-vendor/etc/seccomp_policy/vendor.qti.hardware.dsp.policy|f060101b26d3674bb173e5fc95e118f56a8ac15d
-vendor/lib/vendor.qti.hardware.dsp@1.0.so|0be8b21f30c8aba3381bb1e9279ba0ae9b730c60
-vendor/lib64/vendor.qti.hardware.dsp@1.0.so|e92a9bf499d31770f73cc35e56c6a9d77285ba7c
-
 # Data - from LA.UM.9.12.r1-14400-SMxx50.QSSI12.0
 vendor/bin/ATFWD-daemon|94af1767c77ed9835cbb66b0ba729b71e0044e1a
 vendor/bin/adpl|edb051f8fc13c991585372a62ba73689e73049f5
@@ -728,12 +704,6 @@ vendor/lib64/libdapparamstorage.so
 vendor/lib64/libdlbdsservice.so
 vendor/lib64/vendor.dolby.hardware.dms@2.0-impl.so
 vendor/lib64/vendor.dolby.hardware.dms@2.0.so
-
-# FASTCV - from LA.UM.9.12.r1-14400-SMxx50.QSSI12.0
-vendor/lib/libfastcvdsp_stub.so|7f27cee24281bc9bf4f08c6100cc66bd650d8efb
--vendor/lib/libfastcvopt.so|eb6e1052f12b45f2f651f1437e6072459648f2f3
-vendor/lib64/libfastcvdsp_stub.so|9813b36faa8029bdb358126c2996207fc7704d32
--vendor/lib64/libfastcvopt.so|0796b9092eb285d7689a8e6c4478a88a1d7e6e87
 
 # FM
 vendor/lib/vendor.qti.hardware.fm@1.0.so
