@@ -392,7 +392,11 @@ PRODUCT_VENDOR_PROPERTIES += \
 PRODUCT_VENDOR_PROPERTIES += \
     vendor.sys.thermal.data.path=/data/vendor/thermal/
 
-# Update Engine
+# Touchfeature
+PRODUCT_PACKAGES += \
+    vendor.xiaomi.hardware.touchfeature@1.0.vendor
+
+# USB
 PRODUCT_PACKAGES += \
     update_engine \
     update_engine_sideload \
