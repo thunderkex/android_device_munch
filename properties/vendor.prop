@@ -215,7 +215,8 @@ vendor.display.use_smooth_motion=0
 drm.service.enabled=true
 
 # Fingerprint
-persist.vendor.qfp=false
+ro.vendor.fingerprint.type=side
+ro.vendor.fingerprint.sensor_location=1080|965|115|local:4630946736638489729
 
 # FRP
 ro.frp.pst=/dev/block/bootdevice/by-name/frp
