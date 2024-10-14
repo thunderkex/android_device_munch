@@ -7,6 +7,9 @@
 # Call the MiuiCamera setup
 $(call inherit-product-if-exists, vendor/xiaomi/miuicamera/miuicamera.mk)
 
+# Call v4a setup
+$(call inherit-product, packages/apps/ViPER4AndroidFX/config.mk)
+
 # A/B
 $(call inherit-product, $(SRC_TARGET_DIR)/product/virtual_ab_ota/vabc_features.mk)
 

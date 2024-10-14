@@ -3,3 +3,10 @@ allow audioserver sysfs_f0_value:file rw_file_perms;
 
 # Allow audioserver to r/w to sound_device
 allow audioserver sound_device:chr_file rw_file_perms;
+
+# V4a
+get_prop(audioserver, vendor_audio_prop)
+
+allow audioserver unlabeled:file { read write open getattr };
+allow hal_audio_default hal_audio_default:process { execmem };
+
