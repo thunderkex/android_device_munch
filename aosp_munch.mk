@@ -8,28 +8,34 @@
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
-# Inherit some common lineage stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+# Inherit from common TheParasiteProject configuration.
+$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 
 # Inherit from munch device
 $(call inherit-product, device/xiaomi/munch/device.mk)
 
-PRODUCT_NAME := lineage_munch
+TARGET_DISABLE_EPPE := true
+TARGET_SUPPORTS_GOOGLE_RECORDER := true
+TARGET_INCLUDE_STOCK_ARCORE := true
+TARGET_INCLUDE_LIVE_WALLPAPERS := true
+TARGET_SUPPORTS_QUICK_TAP := true
+TARGET_SUPPORTS_CALL_RECORDING := true
+TARGET_INCLUDE_CARRIER_SERVICES := true
+TARGET_INCLUDE_CARRIER_SETTINGS := true
+TARGET_SUPPORTS_GOOGLE_BATTERY := false
+TARGET_INCLUDE_CAMERA_GO := true
+TARGET_SUPPORTS_LILY_EXPERIENCE := true
+TARGET_GBOARD_KEY_HEIGHT := 1.1
+TARGET_EEA_V2_DEVICE := true
+
+PRODUCT_NAME := aosp_munch
 PRODUCT_DEVICE := munch
 PRODUCT_MANUFACTURER := Xiaomi
 PRODUCT_BRAND := Redmi
 PRODUCT_MODEL := 22021211RC
 
-# RisingOS
-WITH_GMS := true
-TARGET_DEFAULT_PIXEL_LAUNCHER := true
-TARGET_ENABLE_BLUR := true
 TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_HAS_UDFPS := false
-
-PRODUCT_BUILD_PROP_OVERRIDES += \
-    RISING_CHIPSET="Snapdragon 870 5G" \
-    RISING_MAINTAINER="HDzungx"
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 
