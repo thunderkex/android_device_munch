@@ -3,7 +3,14 @@ include $(CLEAR_VARS)
 LOCAL_MODULE := RemovePackages
 LOCAL_MODULE_CLASS := APPS
 LOCAL_MODULE_TAGS := optional
-LOCAL_OVERRIDES_PACKAGES += YouTube YouTubeMusicPrebuilt PrebuiltGmail Drive Chrome Chrome-Stub Maps
+LOCAL_OVERRIDES_PACKAGES := \
+    Chrome \
+	Chrome-Stub \
+    Drive \
+    Gmail2 \
+    Maps \
+    YouTube \
+	YouTubeMusic
 LOCAL_UNINSTALLABLE_MODULE := true
 LOCAL_CERTIFICATE := PRESIGNED
 LOCAL_SRC_FILES := /dev/null
