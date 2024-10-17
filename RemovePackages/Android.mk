@@ -10,7 +10,16 @@ LOCAL_OVERRIDES_PACKAGES := \
     Gmail2 \
     Maps \
     YouTube \
-	YouTubeMusic
+	YouTubeMusic \
+    TrichromeLibrary-Stub \
+    TrichromeLibrary \
+    ScribePrebuilt \
+    Videos \
+    MeetPrebuilt_20240128 \
+    PlayAutoInstallConfig \
+    SwitchAccessPrebuilt \
+    TurboAdapter \
+    talkback
 LOCAL_UNINSTALLABLE_MODULE := true
 LOCAL_CERTIFICATE := PRESIGNED
 LOCAL_SRC_FILES := /dev/null
