@@ -11,15 +11,19 @@ LOCAL_OVERRIDES_PACKAGES := \
     Maps \
     YouTube \
 	YouTubeMusic \
-    TrichromeLibrary-Stub \
-    TrichromeLibrary \
     ScribePrebuilt \
     Videos \
     MeetPrebuilt_20240128 \
     PlayAutoInstallConfig \
     SwitchAccessPrebuilt \
     TurboAdapter \
-    talkback
+    talkback \
+    GoogleTTS \
+    PrebuiltGmail \
+    GoogleFeedback \
+    TagGoogle \
+    AndroidAutoStubPrebuilt \
+    TurboPrebuilt
 LOCAL_UNINSTALLABLE_MODULE := true
 LOCAL_CERTIFICATE := PRESIGNED
 LOCAL_SRC_FILES := /dev/null
